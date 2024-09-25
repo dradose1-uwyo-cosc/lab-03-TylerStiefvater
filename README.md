@@ -8,6 +8,7 @@ print(states)
 print(states[0])
 print(states[-1])
 print(f"{states[1].upper()} is south of {states[0].upper()}")
+
 states.append('Washington')
 states.append('Oregon')
 states.append('California')
@@ -18,5 +19,12 @@ states[2]="Texas"
 print(states)
 del states[3]
 print(states)
-del states[2]
+states.remove("Texas")
+print(states)
+
+print(sorted(states))
+print(states)
+states.sort(reverse=True)
+print(states)
+states.reverse()
 print(states)
