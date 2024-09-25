@@ -1,12 +1,22 @@
-# [Name]
-## [Assignment #]
-## [Submission date: MM/DD/YY]
+# Tyler Stiefvater
+## [Assignment 3]
+## [Submission date: 09/25/24]
 ## Worked with/sources 
-* example
-* example
-* example
-* example
 ## Project Quirks/ Things that don't work
-* example
-* example
-* example
+states=['Wyoming','Colorado','Montana']
+print(states)
+print(states[0])
+print(states[-1])
+print(f"{states[1].upper()} is south of {states[0].upper()}")
+states.append('Washington')
+states.append('Oregon')
+states.append('California')
+print(states)
+states[-2]="Maine"
+print(states)
+states[2]="Texas"
+print(states)
+del states[3]
+print(states)
+del states[2]
+print(states)
